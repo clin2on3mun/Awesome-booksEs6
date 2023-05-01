@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: cursive;
+  position: relative;
+}
+
+main {
+  margin-bottom: 5%;
+}
+
+hr {
+  width: 20%;
+  margin: 1% auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  border: 1px solid black;
+  margin: 5% auto 0 auto;
+  padding: 1% 4% 1% 4%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  margin-right: 0.8rem;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+}
+
+.list,
+.form {
+  border-right: 1px solid black;
+}
+
+.books-list {
+  width: 60%;
+  margin: 2% auto 2% auto;
+}
+
+div.book {
+  padding: 1% 3% 1% 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.book:nth-child(even) {
+  background-color: #e2dfdf;
+}
+
+.paragraph {
+  font-size: 1.3em;
+}
+
+.remove-book {
+  margin-right: 5%;
+  border-style: none;
+  padding: 1%;
+  border: 1px solid black;
+  box-shadow: 2px 2px #131212;
+}
+
+button {
+  font-size: 1.1em;
+  background-color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 10px;
+  margin: 2% auto 0 auto;
+}
+
+.titles,
+.authors {
+  width: 95%;
+  padding: 2%;
+}
+
+.add-book {
+  align-self: flex-end;
+  margin-right: 5%;
+  width: 12%;
+  border-style: none;
+  border: 1px solid black;
+  box-shadow: 2px 2px #131212;
+  padding: 1%;
+}
+
+#contact {
+  width: 50%;
+  margin: 2% auto 2% auto;
+}
+
+.contact-texts {
+  font-size: 1.2em;
+}
+
+.contact-lists {
+  padding-left: 15%;
+}
+
+footer {
+  width: 90%;
+  margin-top: 5%;
+  border: 1px solid black;
+  text-align: right;
+  display: flex;
+  position: absolute;
+  top: 92%;
+  left: 5%;
+}
+
+footer > p {
+  font-size: 1.5em;
+  margin-right: 1%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#show-books.active,
+#add-book.active,
+#contact.active {
+  display: none;
+}
+
+#show-books,
+#add-book,
+#contact {
+  margin: 2% auto 5% auto;
+}
+
+.form-link.visible,
+.contact-link.visible {
+  color: blue;
+}
+
+.list-link.visible {
+  color: blue;
+}
+
+#date-and-time {
+  text-align: right;
+  margin: 4% 5% 0 0;
+}
