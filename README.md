@@ -54,7 +54,6 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -115,7 +114,7 @@ In order to run this project you need:
 - A browser of you choice.
 - A text editor of your choice.
 - An installed node.js on your local system
-Setup
+
 
 ### Setup
 
