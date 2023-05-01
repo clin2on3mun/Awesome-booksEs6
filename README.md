@@ -29,7 +29,7 @@ After you're finished please remove all the comments and instructions!
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
-  <h3><b>AWESOME BOOKS</b></h3>
+  <h3><b>AWESOME BOOKS WITH ES6</b></h3>
 
 </div>
 
@@ -96,7 +96,7 @@ After you're finished please remove all the comments and instructions!
 
 
 
-- [Live Demo Link]()
+- [Live Demo Link]( https://clin2on3mun.github.io/Awesome-booksEs6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
