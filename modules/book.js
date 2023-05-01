@@ -3,7 +3,7 @@ export default class Book {
     this.bookLists = JSON.parse(localStorage.getItem('books')) || [];
   }
 
-  addBooktoList(author, title) {
+  addBooktoList = (author, title) => {
     const updateBook = [
       ...this.bookLists,
       { id: `${Math.trunc(Math.random() * 100000)}${author.split(' ')[0]}`, author, title },
@@ -11,16 +11,14 @@ export default class Book {
     this.updateStorage(updateBook);
   }
 
-  removeBookfromList(id) {
+  removeBookfromList = (id) => {
     const updateBook = this.bookLists.filter((it) => it.id !== id);
     this.updateStorage(updateBook);
   }
 
-  getBook() {
-    return this.bookLists;
-  }
+  getBook = () => this.bookLists
 
-  updateStorage(data) {
+  updateStorage = (data) => {
     localStorage.setItem('books', JSON.stringify(data));
     this.bookLists = data;
   }
